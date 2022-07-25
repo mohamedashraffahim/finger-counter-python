@@ -4,6 +4,7 @@ import os
 import HandTrackingModule as htm
 #Some devices you need to put 1 instead of 0 because of the camera number
 cam = cv2.VideoCapture(0)
+#Put here the path of the folder of finger Images
 folderPath = "Images"
 imgList = os.listdir(folderPath)
 
