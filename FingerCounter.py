@@ -4,7 +4,7 @@ import os
 import HandTrackingModule as htm
 
 cam = cv2.VideoCapture(0)
-folderPath = "D:\Mohamed Ashraf\college\Finger Python Project\Images"
+folderPath = "Images"
 imgList = os.listdir(folderPath)
 # print(imgList)
 overLayer = []
